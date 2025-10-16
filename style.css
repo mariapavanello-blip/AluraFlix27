@@ -1,29 +1,48 @@
-body{
+body {
     background-color: rgb(219, 174, 242);
     color: rgb(122, 62, 152);
     font-family: "Verdana", sans-serif;
     margin: 0px;
 }
-h1{
+
+h1 {
 
     color: rgb(233, 218, 247);
     font-size: 40px;
 }
 
-p{
+p {
     font-size: 20px;
 }
-header{
-border-bottom: solid 3x rgb(106, 60, 173);
-margin:2px;
-padding: 10px;
-color: rgb(62, 31, 91);
+
+header {
+    border-bottom: solid 3x rgb(106, 60, 173);
+    margin: 2px;
+    padding: 10px;
+    color: rgb(62, 31, 91);
 }
 
-.chamada{
+.chamada {
     background: rgb(182, 136, 226);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
+}
+.chamada-texto {
+    margin-right: 8%;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
 }
